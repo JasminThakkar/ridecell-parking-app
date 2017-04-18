@@ -20,6 +20,6 @@ Optional:
 APIs:
 
 1.)http://127.0.0.1:8000/spotsavailable/ # get:all available parking spots post:new parking spot requested
-2.)http://127.0.0.1:8000/occupiedspots/  # get:all occupied spots in parking post:request for another parking spot
+2.)http://127.0.0.1:8000/occupiedspots/  # get:all occupied spots in parking post:request for another parking spot post: update time_slot(extend or reduce).
 3.)http://127.0.0.1:8000/reservedspots/  # get:all reserved parking spots
 4.)http://127.0.0.1:8000/spotsnearby/latitude=100&longitude=100&r=10 # get: all spots near by you 
